@@ -9,7 +9,7 @@ PiscaLed::PiscaLed(int pino, long time)
     // pino e time só podem serem acessados de dentro dessa função
     pinMode(pino, OUTPUT);
     _pino = pino;
-    _time = time;
+    _time = time; 
 }
 
 void PiscaLed::acende_led()
